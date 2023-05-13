@@ -1,0 +1,37 @@
+.main-container {
+    width: calc(100vw - 70px);
+    flex-flow: column;
+    box-sizing: border-box;
+}
+
+.topbar-container {
+    width: calc(100vw - 70px);
+    height: 70px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+justify-content:space-evenly;
+    background-color: rgb(250, 250, 250);
+}
+
+.bottom-container {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: rgb(247, 246, 246);
+    box-sizing: border-box;
+}
+
+.sidebar {
+
+    flex: 3.5;
+    box-sizing: border-box;
+}
+
+.outlets {
+    flex: 8.5;
+    background-color: white;
+    margin-top: 5px;
+    box-sizing: border-box;
+    /* padding: 50px; */
+}

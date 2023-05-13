@@ -1,0 +1,56 @@
+.intents-container{
+    width: 70%;
+    padding: 50px;
+}
+.heading{
+    font-weight: 600;
+}
+.message{
+    color: gray;
+}
+/* in table */
+.search-addIntent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    padding: 10px 8px 10px 13px;
+}
+.search-box{
+    border: 2px solid rgb(199, 198, 198);
+    height:31px ;
+    width: 50%;
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    gap: 10px;
+}
+.search-input{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.search-input:focus{
+    outline: none;
+}
+.add-intent{
+    /* border: 2px solid rgb(226, 224, 224); */
+ 
+    font-size: 13px;
+    font-weight: 400;
+    padding: 6px 15px;
+    /* background-color:rgb(235, 234, 234) ; */
+    border-radius: 3px;
+ }
+ /* 2nd row */
+
+ .intent-title{
+    padding: 12px 10px 12px 15px;
+    
+    font-weight: 600;
+    font-size: 16px;
+ }
+ .intent-title-row{
+    background-color: rgb(176, 232, 232);
+ }

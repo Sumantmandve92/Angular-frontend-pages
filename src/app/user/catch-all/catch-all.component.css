@@ -1,0 +1,113 @@
+.catchAll-container{
+    width: 70%;
+    padding: 50px;
+}
+.select-item {
+
+    position: absolute;
+    /* background-color: bisque; */
+}
+
+.selected-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+
+    height: 40px;
+    /* background-color: aqua; */
+    gap: 5px;
+    border-radius: 2px;
+    border: 2px solid rgb(202, 200, 200);
+}
+
+.heading{
+    font-weight: 600;
+}
+.item-name {
+    width: 100%;
+    /* background-color: aqua; */
+    height: 77%;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    padding-left: 10px;
+    border-right: 2px solid rgb(218, 217, 217);
+}
+
+.bi-chevron-down {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.list {
+    position: relative;
+    top: -40px;
+    left: 320px;
+    width: 300px;
+  
+   
+    display: flex;
+    flex-flow: column;
+    border-radius: 3px;
+
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+.item {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    padding: 10px;
+   
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.item:hover{
+    background-color: rgb(248, 248, 250);
+}
+.add-reply{
+    margin-top: 80px;
+} 
+#reply{
+width: 100%;
+border: none;
+height: 30px;
+padding-left: 10px;
+}
+#reply:focus{
+    outline: none;
+}
+
+.textarea-container{
+    border: 2px solid rgb(202, 200, 200)
+}
+
+.letter-count{
+   display: flex;
+   justify-content: flex-end;
+   gap: 5px;
+   margin-right: 5px;
+   
+}
+.char-counter{
+    margin: 0;
+    color: gray;
+}
+/* ======================================== */
+
+/* ================================= */
+
+.human-handoff{
+    margin-top: 35px;
+}
+.handoff-item{
+    color: gray;
+    border: none;
+}
+.selected-handoff-item{
+   width: 330px;
+}

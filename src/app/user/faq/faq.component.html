@@ -1,0 +1,13 @@
+<div class="heading">Frequently asked question</div>
+<div class="questions-container">
+    <div class="question-list">
+        <div class="question-info" *ngFor="let questionInfo of questions">
+            <div [class]='"btn bg-opacity-25 "+bgColor[questionInfo.status] +" "+ color[questionInfo.status]'>
+                {{questionInfo.status}}</div>
+            <div class="question">{{questionInfo.question}}</div>
+            <div class="subtitle">{{questionInfo.subtitle}}</div>
+        </div>
+    
+    
+    </div>
+</div>

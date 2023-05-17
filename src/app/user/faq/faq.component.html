@@ -1,13 +1,76 @@
 <div class="heading">Frequently asked question</div>
 <div class="questions-container">
     <div class="question-list">
-        <div class="question-info" *ngFor="let questionInfo of questions">
+        <div class="question-info" *ngFor="let questionInfo of questions" data-bs-toggle="modal"
+            data-bs-target="#questionModal">
             <div [class]='"btn bg-opacity-25 "+bgColor[questionInfo.status] +" "+ color[questionInfo.status]'>
                 {{questionInfo.status}}</div>
             <div class="question">{{questionInfo.question}}</div>
             <div class="subtitle">{{questionInfo.subtitle}}</div>
         </div>
-    
-    
+
+
+    </div>
+</div>
+
+
+<div class="modal fade" id="questionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="closeBtn-container">
+                <div class="btn bg-opacity-25 btn-outline-danger bg-danger ">
+                    Underperforming
+                </div>
+                <button type="button" class="close-btn " data-bs-dismiss="modal" aria-label="Close"> Close</button>
+            </div>
+            <div class="question-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+                <div class="question text-truncate" style="max-width: 450px;">Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Ad, excepturi!</div>
+            </div>
+            <div class="heading">Closest matched intents (2)</div>
+            <div class="listcontainer">
+                <ul>
+                    <li>
+                        <div class="sub-container">
+
+                            <div class="sub-container-left">
+                                <div class="question-title">Real Estate</div>
+                                <div class="questions text-truncate" style="max-width: 300px;">Lorem ipsum dolor sit,
+                                    amet consectetur adipisicing elit. Nihil, doloremque.</div>
+                                <div class="questions text-truncate" style="max-width: 300px;">Lorem ipsum dolor sit,
+                                    amet consectetur adipisicing elit. Nihil, doloremque.
+                                </div>
+                                <span class="expansion-link">Show more</span>
+                            </div>
+                            <div class="sub-container-right">
+                                <button class="mybtn btn btn-outline-secondary firstbtn ">Add to this intent</button>
+                            </div>
+                        </div>
+                    </li>
+                    <hr class="border-2">
+                    <li>
+                        <div  class="sub-container">
+
+                            <div class="sub-container-left">
+                                <div class="question-title">Real Estate</div>
+                                <div class="questions text-truncate" style="max-width: 300px;">Lorem ipsum dolor sit, amet
+                                    consectetur adipisicing elit. Nihil, doloremque.
+                                </div>
+                                <span class="expansion-link">Show more</span>
+                            </div>
+                            <div class="sub-container-right">
+                                <button class="mybtn btn btn-success ">Added</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
     </div>
 </div>

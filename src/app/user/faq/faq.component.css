@@ -1,13 +1,12 @@
 .heading {
-    font-weight: 500;
-    margin: 50px 0 15px 0;
+    font-weight: 400;
+    margin: 25px 0 15px 0;
     font-size: 16px;
+    color: #b5b1b1;
 
 }
 
-.questions-container {
-   
-}
+.questions-container {}
 
 .question-list {
     display: flex;
@@ -29,7 +28,7 @@
 
 .btn {
     font-weight: 500;
-    padding: 5px;
+    padding: 3px 5px;
 }
 
 .question {
@@ -40,4 +39,99 @@
 .subtitle {
     color: gray;
     font-size: 13px;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-content {
+    position: absolute;
+    padding: 20px 20px 20px 40px;
+    border-radius: 0;
+}
+
+.closeBtn-and-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+.close-btn {
+    width: fit-content;
+    padding: 5px 20px;
+    border: 2px solid rgb(198, 195, 195);
+    background-color: white;
+    border-radius: 2px;
+    font-weight: 500;
+}
+.modal-dialog {
+    width: 700px;
+    border-radius: 0;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        margin-right: 15%;
+        margin-left: auto;
+    }
+}
+/* for modal */
+.closeBtn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.question-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.question{
+    font-weight: 500;
+}
+.listcontainer{
+    height: fit-content;
+
+}
+.listcontainer ul{
+    gap: 10px;
+}
+ul, li{
+    margin: 0 0 10px 7px;
+    padding: 0;
+}
+.question-title{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.questions{
+    color: gray;
+}
+.sub-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mybtn{
+
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    width: 150px;
+}
+.firstbtn{
+    color: gray;
+  
+    border: 2px solid rgb(189, 188, 188);
+    background-color: white;
+}
+.expansion-link{
+    color: rgb(26 183 192);;
+    font-weight: 400;
+    font-size: 12px;
+}
+.sub-container-left{
+    width: 60%;
 }

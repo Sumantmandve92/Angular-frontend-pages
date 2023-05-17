@@ -1,6 +1,6 @@
 <div class="sidebar">
     <div class="sidebar-items">
-        <a class="sidebar-item" routerLink="train-your-bot">
+        <a class="sidebar-item" routerLinkActive="active" routerLink="train-your-bot">
             <div class="item-title">Train your bot</div>
             <div class="item-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -8,7 +8,7 @@
             </div>
         </a>
         <div class="divider"></div>
-        <a class="sidebar-item" routerLink="intents">
+        <a class="sidebar-item" routerLinkActive="active" routerLink="intents">
             <div class="item-title">Intents</div>
             <div class="item-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -16,7 +16,7 @@
             </div>
         </a>
         <div class="divider"></div>
-        <a class="sidebar-item" routerLink="catchAll">
+        <a class="sidebar-item" [routerLinkActive]="'active'" routerLink="catchAll">
             <div class="item-title">Catch all</div>
             <div class="item-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -24,7 +24,7 @@
             </div>
         </a>
         <div class="divider"></div>
-        <a class="sidebar-item" routerLink="analytics">
+        <a class="sidebar-item" [routerLinkActive]="'active'" routerLink="analytics">
             <div class="item-title">Analytics</div>
             <div class="item-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -32,14 +32,14 @@
             </div>
         </a>
         <div class="divider"></div>
-        <a class="sidebar-item" routerLink="answers">
+        <a class="sidebar-item" [routerLinkActive]="'active'" routerLink="answers">
             <div class="item-title">Answers</div>
             <div class="item-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Optio accusantium a neque, 
             </div>
         </a>
-        <a class="sidebar-item" routerLink="summary">
+        <a class="sidebar-item" [routerLinkActive]="'active'" routerLink="summary">
             <div class="item-title">Summary</div>
             <div class="item-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -47,7 +47,7 @@
             </div>
         </a>
         <div class="divider"></div>
-        <a class="sidebar-item" routerLink="divergence">
+        <a class="sidebar-item" [routerLinkActive]="['active']" routerLink="divergence">
             <div class="item-title">Divergence</div>
             <div class="item-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 

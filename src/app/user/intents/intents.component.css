@@ -54,3 +54,38 @@
  .intent-title-row{
     background-color: rgb(176, 232, 232);
  }
+
+ /* =========================================== */
+
+ .intents-list-container{
+    box-sizing: border-box;
+    padding: 10px;
+ }
+ .intents-list{
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+ }
+ .intent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border: 2px solid rgb(199, 198, 198);
+    border-radius: 3px;
+ }
+ .intent-sub-title{
+    font-weight: 500;
+cursor: pointer;
+
+ }
+ /* =========collapse====================== */
+
+ .collapse{
+    border: none;
+ }
+ .intents-list-item{
+    padding: 7px;
+    font-weight: 500;
+ }
+
